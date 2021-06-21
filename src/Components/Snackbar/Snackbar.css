@@ -1,0 +1,20 @@
+.snackbar_wrapper {
+  display: flex;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 1);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+
+.snackbar_wrapper .close {
+  transform: rotate(45deg);
+  font-size: xx-large;
+  display: inline-flex;
+  align-items: center;
+}
+
+.snackbar_wrapper span {
+  margin: 0.5rem;
+}

@@ -1,0 +1,28 @@
+.nav_bar {
+  height: 7vh;
+  width: 100%;
+  background-color: white;
+  color: rgb(14, 20, 27);
+  display: flex;
+}
+
+.nav_bar a {
+  text-decoration: none;
+  height: 100%;
+  font-weight: 800;
+  padding: 0 1rem;
+  display: inline-flex;
+  align-items: center;
+}
+.nav_bar a:hover {
+  background-color: #00f9b8;
+  transition: 0.5s;
+}
+.logo {
+  align-self: center;
+  background: #00f9b8;
+  height: 100%;
+  padding: 0 1rem;
+  display: inline-flex;
+  align-items: center;
+}

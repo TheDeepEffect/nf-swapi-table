@@ -1,0 +1,14 @@
+.search_bar_wrapper {
+  position: relative;
+  display: inline-block;
+}
+.suggestions {
+  position: absolute;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}

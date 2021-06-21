@@ -1,13 +1,93 @@
-th {
-  background-color: white;
-}
-
-.table_main {
+.table_wrapper {
   width: 100%;
-  border: 1px solid black;
+  height: 80%;
+}
+.loading_spinner {
+  position: relative;
+  left: 50vw;
+  top: 20vh;
+}
+.table_main {
   border-collapse: collapse;
   text-align: center;
+  width: 100%;
+  min-height: 100%;
 }
-tr:nth-child(odd) {
-  background-color: rgba(0, 0, 254, 0.1);
+.sort_button {
+  height: 1rem;
+  width: 1rem;
+  background: rgba(192, 192, 192, 1);
+  color: black;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  padding: 0.05rem;
+  margin: 0.2rem;
+  border-radius: 50%;
+}
+.asce {
+  transform: rotate(180deg);
+}
+thead {
+  background-color: rgba(120, 178, 245, 0.2);
+  position: sticky;
+  top: 0%;
+}
+thead tr {
+  height: 3.5rem;
+}
+
+tbody tr {
+  border-bottom: 1px solid grey;
+}
+tbody td {
+  padding: 1rem;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.reorder {
+  margin: 2px;
+  font-size: x-small;
+}
+.table_header {
+  display: flex;
+  padding: 1rem;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+}
+.pagination_btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.active {
+  background: #00f9b8;
+}
+.pagination_btn:disabled {
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.5);
+}
+.search {
+  height: 100%;
+  padding: 10px 16px;
+}
+.search_bar {
+  outline: none;
+  border: 2px solid #737373;
+  border-width: 0 0 3px;
+  background-color: transparent;
+  font-size: 22px;
+  padding: 0.125em 0.225em;
+  width: 85%;
+  float: left;
+  color: #00f9b8;
+}
+.search_bar:focus {
+  border-color: #00f9b8;
 }
